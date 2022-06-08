@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\States">
+      <UniqueIdentifier>{86eb7adf-d8cb-4aa7-be97-cf7574da3601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entities">
+      <UniqueIdentifier>{7ccceed8-cd3a-4d8c-a32f-c9a2ea51095c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Control">
+      <UniqueIdentifier>{99fd68c7-33f5-40bf-a5b9-7804588e8e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components">
+      <UniqueIdentifier>{a494a1b9-fa3e-4a47-8c57-c3e7e9290dc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="State.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsState.cpp">
+      <Filter>Исходные файлы\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Header.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Generation.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="config\window.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="IAttacking.h">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsState.h">
+      <Filter>Исходные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Generation.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\player.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
